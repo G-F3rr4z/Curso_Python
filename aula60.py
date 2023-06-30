@@ -21,6 +21,7 @@ for digito_2 in dez_digitos:
     digito_2 = multiplicacao_2 % 11
 
 cpf_gerado = f'{nove_digitos}{digito_1}{digito_2}'
+print(cpf_gerado)
 
 if cpf_enviado_cliente == cpf_gerado:
     print('CPF: ' f'{cpf_enviado_cliente} é Válido')
