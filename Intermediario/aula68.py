@@ -1,8 +1,9 @@
 
 x = 1
 def escopo():
-    global x
-    x = 10
+    # global x
+    # x = 10
+
     def outra_funcao():
        global x
        x =11
