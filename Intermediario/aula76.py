@@ -10,17 +10,23 @@
 # dicionários.
 # Imutáveis: str, int, float, bool, tuple
 # Mutável: dict, list
-# pessoa = {
-#     'nome': 'Gabriel Ferraz',
-#     'sobrenome': 'Rezende',
-#     'idade': 28,
-#     'altura': 1.7,
-#     'endereços': [
-#         {'rua': 'tal tal', 'número': 123},
-#         {'rua': 'outra rua', 'número': 321},
-#     ]
-# }
-# pessoa = dict(nome='Gabriel Ferraz', sobrenome='Rezende')
+pessoa = {
+    'nome': 'Gabriel Ferraz',
+    'sobrenome': 'Rezende',
+    'idade': 28,
+    'altura': 1.7,
+    'endereços': [
+        {'rua': 'tal tal', 'número': 123},
+        {'rua': 'outra rua', 'número': 321},
+    ],
+}
+
+# print(pessoa, type(pessoa))
+# print(pessoa['nome'])
+# print(pessoa['sobrenome'])
+
+for chave in pessoa:
+    print(chave,pessoa[chave])
 
 
 
