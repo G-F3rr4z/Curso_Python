@@ -22,11 +22,11 @@ pessoa = {
 }
 
 # print(pessoa, type(pessoa))
-# print(pessoa['nome'])
+print(pessoa['nome'])
 # print(pessoa['sobrenome'])
 
-for chave in pessoa:
-    print(chave,pessoa[chave])
+# for chave in pessoa:
+#     print(chave,pessoa[chave])
 
 
 
